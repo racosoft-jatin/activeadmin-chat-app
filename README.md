@@ -137,11 +137,15 @@ ActiveAdmin.register_chat User do
 end
 ```
 
-IF you want to create a conversation in rails console just copy paste this query.
+If you want to create a conversation in rails console just copy paste this query.
 ```
   user = User.new(name: 'Racosoft', email: racosoft@gmail.com).save
   conversation = Conversation.new(user_id: user.id).save
 ```
+
+Screenshots
+[<img src="https://raw.githubusercontent.com/racosoft-jatin/admin-chat-app/main/images/Screenshot%202024-09-07%20at%201.36.05%E2%80%AFPM.png">]
+
 
 ## Contributing
 Bug reports (please use Issues) and pull requests are welcome on GitHub at https://github.com/rootstrap/activeadmin-chat. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
